@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Add New File</title>
+</head>
+
+<body>
+   
+    <h1>Add New File for a Detainee</h1>
+    <form method="POST" action="" enctype="multipart/form-data">
+        <label for="detainee_name">Detainee Name:</label>
+        <input type="text" id="detainee_name" name="detainee_name" placeholder="Enter Detainee Name" required>
+        <br><br>
+        
+        <label for="case_details">Case Details:</label>
+        <textarea id="case_details" name="case_details" placeholder="Enter Case Details" required></textarea>
+        <br><br>
+        
+        <!-- File input to upload a file -->
+        <label for="file_upload">Upload File:</label>
+        <input type="file" id="file_upload" name="file_upload" required>
+        <br><br>
+        
+        <button type="submit">Add File</button>
+    </form>
+
+</body>
+
+</html>
